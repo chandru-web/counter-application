@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.click-counter-container {
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.counter-heading {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.counter-text {
+  color: #c20a72;
+}
+.counter-description {
+  color: #2d3a35;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.click-me-button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px solid #007bff;
+}
